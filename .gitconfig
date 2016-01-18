@@ -1,0 +1,17 @@
+[user]
+	name = mikaelec
+	email = mikaelec@gmail.com
+[core]
+	editor = atom --wait
+[credential]
+	helper = cache
+[pull]
+	rebase = true
+[merge]
+	ff = false
+[push]
+	default = current
+[alias]
+	flog = log --pretty=format:'%C(yellow)%h %C(red)%ad %C(cyan)%x09%an%x09%C(green)%d %Creset%s' --date=relative --graph --all
+	ss = status -s
+	aa = add -A
