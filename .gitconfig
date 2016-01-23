@@ -2,7 +2,7 @@
 	name = mikaelec
 	email = mikaelec@gmail.com
 [core]
-	editor = atom --wait
+	editor = atom -n --wait
 [credential]
 	helper = cache
 [pull]
