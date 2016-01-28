@@ -1,0 +1,14 @@
+'.text.tex.latex':
+  'Beamer frame':
+    'prefix': 'frame'
+    'body': """\\\\begin{frame}
+\t\\\\frametitle{${1:Frame Title}}
+
+\t$2
+\\\\end{frame}
+"""
+
+'.text.tex.latex':
+  'Fancy quotes':
+    'prefix': 'quot'
+    'body': '``$1\'\''
