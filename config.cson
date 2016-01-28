@@ -1,9 +1,12 @@
 "*":
   core: {}
   editor:
+    fontSize: 12
     invisibles: {}
   "exception-reporting":
     userId: "1ec395bb-80d0-6291-23be-6ac2f531de6c"
+  latex: {}
   minimap: {}
+  "spell-check": {}
   welcome:
     showOnStartup: false
