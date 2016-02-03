@@ -1,0 +1,6 @@
+'.platform-linux atom-text-editor':
+  'ctrl-.': 'spell-check:correct-misspelling'
+'.platform-linux atom-text-editor':
+  'ctrl-.': 'spell-check:correct-misspelling'
+'.platform-linux .corrections atom-text-editor':
+  'ctrl-.': 'core:cancel'
