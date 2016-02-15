@@ -15,9 +15,19 @@ const FILE_MAP = {
 
 var fetchPromised = (src, dest) => new Promise((resolve, reject) => { moveFileAsync(src, dest, resolve, reject); });
 
-Promise.all(Object.keys(FILE_MAP).map(x => fetchPromised(x, FILE_MAP[x])))
-  .then(data => { data.forEach(x => { console.log(x); }); });
+Promise.all(Object.keys(FILE_MAP).map(x => fetchPromised(x, FILE_MAP[x])));
 
 function moveFileAsync(src, dest, onSuccess, onError) {
-    onSuccess(`Moving from "${src}" to "${dest}"...`);
+  exec(`cp ${src} ${dest}`, (error, stdout, stderr) => {
+    if (error) {
+      console.log(error.message.match(/cp\:.*/g)[0]);
+      onError(error);
+    }
+    else {
+      var success = `Moving from "${src}" to "${dest}"...`;
+      console.log(success);
+      onSuccess(success);
+    }
+  });
+
 }
