@@ -1,4 +1,4 @@
 $include /etc/inputrc
 set completion-ignore-case On
-"\C-f": menu-complete
+"\e[Z": menu-complete
 
