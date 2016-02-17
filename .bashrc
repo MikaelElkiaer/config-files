@@ -17,3 +17,6 @@ source /home/m-elkiaer/bin/git-completion.bash
 alias lsa="ls --almost-all"
 export VAGRANT_DEFAULT_PROVIDER=virtualbox
 alias start="xdg-open"
+
+alias ghci-cabal="ghci -no-user-package-db -package-db .cabal-sandbox/x86_64-linux-ghc-7.8.4-packages.conf.d/"
+
