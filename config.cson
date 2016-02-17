@@ -1,5 +1,6 @@
 "*":
-  core: {}
+  core:
+    closeEmptyWindows: false
   editor:
     fontSize: 12
     invisibles: {}
