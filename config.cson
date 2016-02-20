@@ -14,5 +14,9 @@
     grammars: [
       "text.tex.latex"
     ]
+  tabs:
+    enableVcsColoring: true
+    tabScrolling: false
+    usePreviewTabs: true
   welcome:
     showOnStartup: false
