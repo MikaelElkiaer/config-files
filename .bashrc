@@ -20,3 +20,6 @@ alias start="xdg-open"
 
 alias ghci-cabal="ghci -no-user-package-db -package-db .cabal-sandbox/x86_64-linux-ghc-7.8.4-packages.conf.d/"
 
+alias mongod-start="systemctl start mongod"
+alias mongod-stop="systemctl stop mongod"
+
