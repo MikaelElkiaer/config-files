@@ -1,8 +1,8 @@
 [user]
 	name = mikaelec
 	email = mikaelec@gmail.com
-[core]
-	editor = atom -n --wait
+#[core]
+#	editor = atom -n --wait
 [credential]
 	helper = cache
 [pull]
