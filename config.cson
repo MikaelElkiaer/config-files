@@ -18,9 +18,10 @@
     enableVcsColoring: true
     tabScrolling: false
     usePreviewTabs: true
+  "tree-view":
+    hideIgnoredNames: true
   welcome:
     showOnStartup: false
 ".jade.source":
   editor:
     tabLength: 4
-
