@@ -6,9 +6,12 @@
     invisibles: {}
   "exception-reporting":
     userId: "1ec395bb-80d0-6291-23be-6ac2f531de6c"
+  "git-log": {}
   "keyboard-localization":
     useKeyboardLayout: "da_DK"
-  latex: {}
+  latex:
+    openResultAfterBuild: false
+    openResultInBackground: false
   minimap: {}
   "spell-check":
     grammars: [
