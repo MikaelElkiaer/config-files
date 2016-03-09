@@ -12,6 +12,7 @@
   latex:
     openResultAfterBuild: false
     openResultInBackground: false
+    useMasterFileSearch: false
   minimap: {}
   "spell-check":
     grammars: [
