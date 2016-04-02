@@ -1,5 +1,6 @@
 "*":
   core:
+    autoHideMenuBar: true
     closeEmptyWindows: false
   editor:
     fontSize: 12
@@ -10,10 +11,15 @@
   "keyboard-localization":
     useKeyboardLayout: "da_DK"
   latex:
+    alwaysOpenResultInAtom: true
     openResultAfterBuild: false
     openResultInBackground: false
     useMasterFileSearch: false
+  "linter-chktex": {}
+  "linter-gcc": {}
   minimap: {}
+  "pdf-view":
+    reverseSyncBehaviour: "Double click"
   "spell-check":
     grammars: [
       "text.tex.latex"
