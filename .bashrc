@@ -23,3 +23,6 @@ alias ghci-cabal="ghci -no-user-package-db -package-db .cabal-sandbox/x86_64-lin
 alias mongod-start="systemctl start mongod"
 alias mongod-stop="systemctl stop mongod"
 
+alias wa="~/Git/tungsten/tungsten.sh"
+alias w10="virtualbox ~/VirtualBox\ VMs/Windows\ 10\ \(64-bit\)/Windows\ 10\ \(64-bit\).vbox"
+
