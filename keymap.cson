@@ -1,6 +1,9 @@
 '.platform-linux atom-text-editor':
   'ctrl-.': 'spell-check:correct-misspelling'
-'.platform-linux atom-text-editor':
-  'ctrl-.': 'spell-check:correct-misspelling'
 '.platform-linux .corrections atom-text-editor':
   'ctrl-.': 'core:cancel'
+'.platform-linux atom-workspace, .platform-win32 atom-workspace':
+  'alt-shift-Q': 'terminal-panel:toggle'
+  'alt-shift-W': 'terminal-panel:destroy'
+  'alt-shift-pagedown': 'terminal-panel:next'
+  'alt-shift-pageup': 'terminal-panel:prev'
