@@ -23,7 +23,8 @@ const FILE_MAP = {
   'git-completion.bash': '~/bin/git-completion.bash',
   'git-prompt.sh': '~/bin/git-prompt.sh',
   'keymap.cson': '~/.atom/keymap.cson',
-  'snippets.cson': '~/.atom/snippets.cson'
+  'snippets.cson': '~/.atom/snippets.cson',
+  '.vimrc': '~/.vimrc'
 };
 
 var fetchPromised = (src, dest) => new Promise((resolve, reject) => { moveFunc(src, dest, resolve, reject); });
