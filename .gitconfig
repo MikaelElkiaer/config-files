@@ -16,3 +16,4 @@
 	flog = log --pretty=format:'%C(yellow)%h %C(red)%ad %C(cyan)%x09%an%x09%C(green)%d %Creset%s' --date=relative --graph --all
 	ss = status -s
 	aa = add -A
+	ca = commit --amend --no-edit
