@@ -4,6 +4,7 @@
 [core]
 	autocrlf = true
 #	editor = atom --wait
+	editor = vim
 [credential]
 	helper = cache
 [pull]
