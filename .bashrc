@@ -26,3 +26,6 @@ alias mongod-stop="systemctl stop mongod"
 alias wa="~/Git/tungsten/tungsten.sh"
 alias w10="virtualbox ~/VirtualBox\ VMs/Windows\ 10\ \(64-bit\)/Windows\ 10\ \(64-bit\).vbox"
 
+export ANDROID_HOME=/home/m-elkiaer/bin/android-sdk-linux
+export PATH=$PATH:/home/m-elkiaer/bin/android-sdk-linux/tools
+
