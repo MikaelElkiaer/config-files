@@ -29,5 +29,5 @@ alias w10="virtualbox ~/VirtualBox\ VMs/Windows\ 10\ \(64-bit\)/Windows\ 10\ \(6
 export ANDROID_HOME=/home/m-elkiaer/bin/android-sdk-linux
 export PATH=$PATH:/home/m-elkiaer/bin/android-sdk-linux/tools
 
-alias box="less -isR"
+alias l="less -R"
 
