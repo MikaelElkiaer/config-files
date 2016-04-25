@@ -12,3 +12,9 @@
   'Fancy quotes':
     'prefix': 'quot'
     'body': '``$1\'\''
+
+'.text.tex.latex':
+  'Point to root file':
+    'prefix': 'texroot'
+    'body': '% !TEX root = $1'
+
