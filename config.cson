@@ -1,10 +1,10 @@
 "*":
   core:
-    autoHideMenuBar: true
     closeEmptyWindows: false
   editor:
     fontSize: 12
     invisibles: {}
+    softWrap: true
   "exception-reporting":
     userId: "1ec395bb-80d0-6291-23be-6ac2f531de6c"
   "git-log": {}
@@ -15,9 +15,12 @@
     openResultAfterBuild: false
     openResultInBackground: false
     useMasterFileSearch: false
+  linter: {}
   "linter-chktex": {}
   "linter-gcc": {}
-  minimap: {}
+  minimap:
+    absoluteMode: true
+  "one-dark-ui": {}
   "pdf-view":
     reverseSyncBehaviour: "Double click"
   "spell-check":
