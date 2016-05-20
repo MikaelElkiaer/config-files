@@ -18,6 +18,6 @@
 	ss = status -s
 	aa = add -A
 	ca = commit --amend --no-edit
-	llog = !"watch --interval 1 --color \"git --no-pager flog | less -R\""
+	llog = !"watch --interval 1 --color \"git --no-pager flog --no-color | less -R\""
 [color]
 	ui = always
