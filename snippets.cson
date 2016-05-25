@@ -1,4 +1,7 @@
 '.text.tex.latex':
+  'Fancy quotes':
+    'prefix': 'quot'
+    'body': '``$1\'\''
   'Beamer frame':
     'prefix': 'frame'
     'body': """\\\\begin{frame}
@@ -7,14 +10,6 @@
 \t$2
 \\\\end{frame}
 """
-
-'.text.tex.latex':
-  'Fancy quotes':
-    'prefix': 'quot'
-    'body': '``$1\'\''
-
-'.text.tex.latex':
   'Point to root file':
     'prefix': 'texroot'
     'body': '% !TEX root = $1'
-
