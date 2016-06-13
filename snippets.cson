@@ -6,7 +6,6 @@
     'prefix': 'frame'
     'body': """\\\\begin{frame}
 \t\\\\frametitle{${1:Frame Title}}
-
 \t$2
 \\\\end{frame}
 """

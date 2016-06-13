@@ -12,15 +12,13 @@
   "keyboard-localization":
     useKeyboardLayout: "da_DK"
   latex:
-    alwaysOpenResultInAtom: true
     openResultAfterBuild: false
     openResultInBackground: false
     useMasterFileSearch: false
   linter: {}
   "linter-chktex": {}
   "linter-gcc": {}
-  minimap:
-    absoluteMode: true
+  minimap: {}
   "one-dark-ui": {}
   "pdf-view":
     reverseSyncBehaviour: "Double click"
