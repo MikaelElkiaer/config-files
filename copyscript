@@ -20,8 +20,8 @@ const FILE_MAP = {
   '.gitconfig': '~/.gitconfig',
   '.inputrc': '~/.inputrc',
   'config.cson': '~/.atom/config.cson',
-  'git-completion.bash': '~/bin/git-completion.bash',
-  'git-prompt.sh': '~/bin/git-prompt.sh',
+  'git-completion.bash': '~/git-completion.bash',
+  'git-prompt.sh': '~/git-prompt.sh',
   'keymap.cson': '~/.atom/keymap.cson',
   'snippets.cson': '~/.atom/snippets.cson',
   '.vimrc': '~/.vimrc'

@@ -10,9 +10,9 @@ fi
 
 # User specific aliases and functions
 
-source /home/m-elkiaer/bin/git-prompt.sh
+source ~/git-prompt.sh
 PROMPT_COMMAND='__posh_git_ps1 "\[\033[1;33m\]\w\e[0m" "\\n\$ ";'$PROMPT_COMMAND
-source /home/m-elkiaer/bin/git-completion.bash
+source ~/git-completion.bash
 
 alias lsa="ls --almost-all"
 export VAGRANT_DEFAULT_PROVIDER=virtualbox
