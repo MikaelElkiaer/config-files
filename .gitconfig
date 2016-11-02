@@ -3,8 +3,8 @@
 	email = mikaelec@gmail.com
 [core]
 	autocrlf = true
-#	editor = atom --wait
 	editor = vim
+	safecrlf = false
 [credential]
 	helper = cache
 [pull]

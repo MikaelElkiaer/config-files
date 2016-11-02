@@ -31,3 +31,5 @@ export PATH=$PATH:/home/m-elkiaer/bin/android-sdk-linux/tools
 
 alias l="less -R"
 
+alias dotnet="LD_LIBRARY_PATH=~/oldicu/:$LD_LIBRARY_PATH dotnet"
+alias google-chrome-debug"=google-chrome --remote-debugging-port=9222"
