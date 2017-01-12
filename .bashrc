@@ -33,3 +33,9 @@ alias l="less -R"
 
 alias dotnet="LD_LIBRARY_PATH=~/oldicu/:$LD_LIBRARY_PATH dotnet"
 alias google-chrome-debug"=google-chrome --remote-debugging-port=9222"
+
+if [ -f ~/.ghitoken ]; then
+  . ~/.ghitoken
+fi
+
+export TERM=xterm-256color #fix >screen color
