@@ -2,7 +2,7 @@
 	name = MikaelElkiaer
 	email = mikaelec@gmail.com
 [core]
-	autocrlf = true
+	autocrlf = false
 	editor = vim
 	safecrlf = false
 [credential]
