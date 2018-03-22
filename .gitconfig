@@ -5,6 +5,7 @@
 	autocrlf = false
 	editor = vim
 	safecrlf = false
+	pager = /usr/share/git/diff-highlight/diff-highlight | less -r
 [credential]
 	helper = cache
 [pull]
