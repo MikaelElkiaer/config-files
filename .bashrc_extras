@@ -1,5 +1,4 @@
 source ~/git-prompt.sh
+source ~/git-completion.bash
 
-export PROMPT_COMMAND='__posh_git_ps1 "\[\e[0;33m\]\w" " \[\e[1;34m\]\n\$\[\e[0m\] ";'$PROMPT_COMMAND
-
-export PATH=~/bin:$PATH
+export PROMPT_COMMAND='__git_ps1 "\[\e[0;33m\]\w" " \[\e[1;34m\]\n\$\[\e[0m\] ";'$PROMPT_COMMAND
