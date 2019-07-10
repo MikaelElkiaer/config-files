@@ -8,4 +8,4 @@ wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-pro
 ln -sf ./.gitconfig ~/.gitconfig
 ln -sf ./.vimrc ~/.vimrc
 ln -sf ./.bash_extras ~/.bash_extras
-echo ~/.bash_extras >> .bashrc
+echo source ~/.bash_extras >> .bashrc
