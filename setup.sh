@@ -7,3 +7,4 @@ wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-pro
 # set up symbolic links
 ln -sf ./.gitconfig ~/.gitconfig
 ln -sf ./.vimrc ~/.vimrc
+ln -sf ./.bash_extras ~/.bash_extras
