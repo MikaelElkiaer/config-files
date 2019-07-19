@@ -1,5 +1,7 @@
 set 	number
 set 	nohlsearch
+syntax on
+
 command	Md 	:m +1
 command Mu 	:m -2
 command C 	:s/^./\=submatch(0)=="#"?"":"#".submatch(0)/
