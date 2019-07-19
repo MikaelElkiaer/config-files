@@ -5,7 +5,7 @@ wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-com
 wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -O ~/git-prompt.sh
 
 # set up symbolic links
-ln -sf ./.gitconfig ~/.gitconfig
-ln -sf ./.vimrc ~/.vimrc
-ln -sf ./.bash_extras ~/.bash_extras
-echo source ~/.bash_extras >> .bashrc
+ln -sf "$(pwd)"/.gitconfig ~/.gitconfig
+ln -sf "$(pwd)"/.inputrc ~/.inputrc
+ln -sf "$(pwd)"/.vimrc ~/.vimrc
+ln -sf "$(pwd)"/.bashrc_extras ~/.bashrc_extras && echo source ~/.bashrc_extras >> ~/.bashrc
