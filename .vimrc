@@ -35,3 +35,18 @@ endfunction
 command -nargs=1 R call RebaseAction(<f-args>)
 
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+" Specify a directory for plugins
+" - For Neovim: ~/.local/share/nvim/plugged
+" - Avoid using standard Vim directory names like 'plugin'
+call plug#begin('~/.vim/plugged')
+" Make sure you use single quotes
+Plug 'omnisharp/omnisharp-vim'
+" Initialize plugin system
+call plug#end()
