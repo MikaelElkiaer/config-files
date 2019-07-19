@@ -7,4 +7,4 @@ wget https://raw.githubusercontent.com/MikaelElkiaer/posh-git-sh/master/git-prom
 ln -sf "$(pwd)"/.gitconfig ~/.gitconfig
 ln -sf "$(pwd)"/.inputrc ~/.inputrc
 ln -sf "$(pwd)"/.vimrc ~/.vimrc
-ln -sf "$(pwd)"/.bashrc_extras ~/.bashrc_extras && echo source ~/.bashrc_extras >> ~/.bashrc
+ln -sf "$(pwd)"/.bash_profile ~/.bash_profile
