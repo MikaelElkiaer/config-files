@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
 # get scripts
-wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -O ~/git-completion.bash
-wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -O ~/git-prompt.sh
+wget https://raw.githubusercontent.com/MikaelElkiaer/posh-git-sh/master/git-prompt.sh -O ~/git-prompt.sh
 
 # set up symbolic links
 ln -sf "$(pwd)"/.gitconfig ~/.gitconfig
