@@ -50,3 +50,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'omnisharp/omnisharp-vim'
 " Initialize plugin system
 call plug#end()
+
+let g:OmniSharp_server_use_mono = 1
+let g:OmniSharp_server_stdio = 1
