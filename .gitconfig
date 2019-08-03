@@ -6,6 +6,8 @@
 	editor = vim
 	safecrlf = false
 	pager = "diff-so-fancy | less --tabs=4 -RFX"
+[rebase]
+	autosquash = true
 [credential]
 	helper = cache
 [pull]
