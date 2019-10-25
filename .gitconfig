@@ -14,6 +14,7 @@
 	rebase = true
 [merge]
 	ff = false
+	tool = vimdiff
 [push]
 	default = current
 [alias]
