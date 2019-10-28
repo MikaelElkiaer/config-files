@@ -18,11 +18,12 @@
 [push]
 	default = current
 [alias]
-	flog = log --pretty=format:'%C(yellow)%h %C(red)%ad %C(cyan)%x09%an%x09%C(green)%d %C(white)%s' --date=relative --graph --all
+	flog = log --pretty=format:'%C(yellow)%h %C(red)%ad %C(cyan)%x09%an%x09%C(green)%d %C(white)%s' --date=relative --graph
 	ss = status -s
 	aa = add -A
 	ca = commit --amend --no-edit
 	llog = !"watch --interval 1 --color \"git --no-pager flog | less -R\""
+	sprune = !"git fetch -p && for branch in `git branch -vv | grep ': gone]' | awk '{print $1}'`; do git branch -D $branch; done"
 [color]
 	ui = always
 [diff]
