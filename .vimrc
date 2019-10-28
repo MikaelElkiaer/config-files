@@ -36,4 +36,6 @@ command -nargs=1 R call RebaseAction(<f-args>)
 
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 
+if &diff
+syntax off
 endif
